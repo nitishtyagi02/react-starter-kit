@@ -30,12 +30,20 @@ export const Navigation = memo(function Navigation(
       {...other}
     >
       <NavItem path="/dashboard" label="Dashboard" icon={<Dashboard />} />
+      <NavItem path="/home" label="Home" icon={<ChatRounded />} />
+
+      <NavItem path="/inbox" label="Inbox" icon={<ChatRounded />} />
+      <NavItem path="/payments" label="Payments" icon={<ChatRounded />} />
+      <NavItem path="/receipts" label="Receipts" icon={<ChatRounded />} />
+      <NavItem path="/offers" label="Offers" icon={<ChatRounded />} />
+
       <NavItem
         path="/tasks"
         label="Tasks"
         icon={<AssignmentTurnedInRounded />}
       />
       <NavItem path="/messages" label="Messages" icon={<ChatRounded />} />
+      <NavItem path="/setting" label="Settings" icon={<ChatRounded />} />
     </List>
   );
 });

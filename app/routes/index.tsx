@@ -33,6 +33,13 @@ export const router = createBrowserRouter([
       { path: "dashboard", lazy: () => import("./dashboard") },
       { path: "tasks", lazy: () => import("./tasks") },
       { path: "messages", lazy: () => import("./messages") },
+      { path: "home", lazy: () => import("./home") },
+      { path: "inbox", lazy: () => import("./inbox") },
+      { path: "payments", lazy: () => import("./payments") },
+      { path: "receipts", lazy: () => import("./receipts") },
+      { path: "offers", lazy: () => import("./offers") },
+      { path: "uploads", lazy: () => import("./uploads") },
+      { path: "setting", lazy: () => import("./setting") },
     ],
   },
 ]);
