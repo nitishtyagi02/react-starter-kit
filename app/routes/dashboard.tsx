@@ -3,7 +3,6 @@
 
 import { Box, Card, CardContent, Container, Typography } from "@mui/joy";
 import { usePageEffect } from "../core/page";
-
 export const Component = function Dashboard(): JSX.Element {
   usePageEffect({ title: "Dashboard" });
 
